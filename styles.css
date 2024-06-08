@@ -1,11 +1,12 @@
 .header{
-    background-color: beige;
+    background-color: #ffd9a8;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vp;
+    background-color: #ffd9a8;
 }
 .columna{
     /*border: 1px solid #ccc;*/
@@ -16,17 +17,18 @@
     box-sizing: border-box;
     text-align: center;
 }
-nav{
+nav{.
     color: black;
     padding: 0;
     text-align: left;
 }
 section{
-    padding: 20px 30px;
+    text-align: center;
 }
 #imagenportadalogo{
     background-color: blue;
     color: black;
+    padding: 90px 90px;
 }
 #eslogan{
     background-color: orange;
@@ -35,14 +37,16 @@ section{
 #carousel{
     background-color: green;
     color: black;
+    padding: 50px 50px;
+    
 }
 #studio{
     background-color: purple;
     color: black;
+    padding: 90px 90px;
 }
 footer{
     background-color: skyblue;
     color:black;
-    padding: 20px 0;
     text-align: center;
 }
