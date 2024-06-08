@@ -1,17 +1,28 @@
-header{
-    background-color: yellow;
-    color: black;
-    padding: 5px 0;
+.header{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vp;
+}
+.columna{
+    /*border: 1px solid #ccc;*/
+    padding: 0px;
+    margin: 0px;
+    flex: 1;
+    max-width: 33%;
+    box-sizing: border-box;
     text-align: center;
 }
-section{
-    padding: 20px 0;
-}
 nav{
-    background-color: red;
     color: black;
-    padding: 10px 0;
+    padding: 0;
     text-align: left;
+}
+section{
+    padding: 20px 30px;
 }
 #imagenportadalogo{
     background-color: blue;
