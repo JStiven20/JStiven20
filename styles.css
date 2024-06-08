@@ -1,5 +1,37 @@
-.header {
+header{
     background-color: yellow;
-    
-
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+}
+section{
+    padding: 20px 0;
+}
+nav{
+    background-color: red;
+    color: black;
+    padding: 10px 0;
+    text-align: left;
+}
+#imagenportadalogo{
+    background-color: blue;
+    color: black;
+}
+#eslogan{
+    background-color: orange;
+    color: black;
+}
+#carousel{
+    background-color: green;
+    color: black;
+}
+#studio{
+    background-color: purple;
+    color: black;
+}
+footer{
+    background-color: skyblue;
+    color:black;
+    padding: 20px 0;
+    text-align: center;
 }
